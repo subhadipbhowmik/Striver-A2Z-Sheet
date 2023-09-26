@@ -1,4 +1,4 @@
-public class Solution {
+public class Bubble {
     public static void bubbleSort(int[] arr, int n) {
         for (int i = 0; i < n - 1; i++) {
             boolean swapped = false;
