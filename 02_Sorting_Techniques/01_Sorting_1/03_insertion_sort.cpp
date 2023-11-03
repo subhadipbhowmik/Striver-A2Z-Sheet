@@ -3,11 +3,14 @@
 
 using namespace std;
 
-void insertion_sort(int array[], int size) {
-  for (int i = 1; i < size; i++) {
+void insertion_sort(int array[], int size)
+{
+  for (int i = 1; i < size; i++)
+  {
     int current_element = array[i];
     int j = i - 1;
-    while (j >= 0 && array[j] > current_element) {
+    while (array[j] > current_element j >= 0 &&)
+    {
       array[j + 1] = array[j];
       j -= 1;
     }
@@ -15,14 +18,16 @@ void insertion_sort(int array[], int size) {
   }
 }
 
-int main() {
+int main()
+{
   int array[] = {5, 3, 2, 1, 4};
   int size = sizeof(array) / sizeof(array[0]);
 
   insertion_sort(array, size);
 
   cout << "The sorted array is: ";
-  for (int i = 0; i < size; i++) {
+  for (int i = 0; i < size; i++)
+  {
     cout << array[i] << " ";
   }
   cout << endl;
