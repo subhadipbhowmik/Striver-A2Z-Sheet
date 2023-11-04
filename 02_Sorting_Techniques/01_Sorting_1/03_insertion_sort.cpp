@@ -9,7 +9,7 @@ void insertion_sort(int array[], int size)
   {
     int current_element = array[i];
     int j = i - 1;
-    while (array[j] > current_element j >= 0 &&)
+    while (array[j] > current_element && j >= 0)
     {
       array[j + 1] = array[j];
       j -= 1;
